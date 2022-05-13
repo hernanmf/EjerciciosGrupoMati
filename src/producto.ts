@@ -37,7 +37,3 @@ btnCalcular.addEventListener("click", () => {
     console.log(arrayResultado[i]);
   }
 });
-
-let notaAlumno1: number;
-let notaAlumno2: number;
-let notaAlumnos3: number;
