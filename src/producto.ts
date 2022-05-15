@@ -9,8 +9,9 @@ let array2: number[] = new Array(tamanio);
 //let arrayResultado: number[] = new Array(tamanio);
 
 function cargarArreglo(arreglo: number[], t: number) {
+  alert("Vamos a cargar los arreglos");
   for (let i = 0; i < t - 1; i++) {
-    arreglo[i] = Number(prompt(`Ingrese el valor del Indice ${i + 1}:`, 0));
+    arreglo[i] = Number(prompt("Ingrese el valor del Indice " + i + ": ", 0));
   }
 }
 
